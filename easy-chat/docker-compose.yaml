@@ -22,6 +22,7 @@ services:
     ports:
       - 16379:6379
     container_name: redis
+    #需要给权限 chmod -R 777 ./components/mysql/data
     volumes:
       - ./components/redis/data:/data
       - ./components/redis/config/redis.conf:/usr/local/redis/config/redis.conf
