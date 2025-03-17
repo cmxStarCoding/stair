@@ -18,7 +18,7 @@ services:
       easy-chat:
 
   redis:
-    image: redis:alpine3.18
+    image: redis:latest
     ports:
       - 16379:6379
     container_name: redis
