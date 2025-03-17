@@ -27,6 +27,6 @@ func (l *PingLogic) Ping(in *user.Request) (*user.Response, error) {
 	// todo: add your logic here and delete this line
 
 	return &user.Response{
-		Pong: "immoc.com",
+		Pong: "immoc.com1231131",
 	}, nil
 }
