@@ -7,9 +7,9 @@ package server
 import (
 	"context"
 
-	"me/stair/easy-chat/apps/user/rpc/internal/logic"
-	"me/stair/easy-chat/apps/user/rpc/internal/svc"
-	"me/stair/easy-chat/apps/user/rpc/user"
+	"stair/easy-chat/apps/user/rpc/internal/logic"
+	"stair/easy-chat/apps/user/rpc/internal/svc"
+	"stair/easy-chat/apps/user/rpc/user"
 )
 
 type UserServer struct {

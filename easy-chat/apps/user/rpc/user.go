@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"me/stair/easy-chat/apps/user/rpc/internal/config"
-	"me/stair/easy-chat/apps/user/rpc/internal/server"
-	"me/stair/easy-chat/apps/user/rpc/internal/svc"
-	"me/stair/easy-chat/apps/user/rpc/user"
+	"stair/easy-chat/apps/user/rpc/internal/config"
+	"stair/easy-chat/apps/user/rpc/internal/server"
+	"stair/easy-chat/apps/user/rpc/internal/svc"
+	"stair/easy-chat/apps/user/rpc/user"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/service"

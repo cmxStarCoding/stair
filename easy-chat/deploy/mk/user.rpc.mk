@@ -1,4 +1,4 @@
-#用户rpc服务的编译、打docker版本测试标签、发布docker测试版本(这是第一步，需要生成可执行的二进制文件)
+#用户rpc服务的编译、构建镜像文件、打docker版本测试标签、发布docker测试版本(这是第一步，需要生成可执行的二进制文件)
 VERSION=latest
 
 SERVER_NAME=user
