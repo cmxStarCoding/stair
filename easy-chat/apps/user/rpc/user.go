@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"stair/easy-chat/pkg/interceptor/rpcserver"
 
 	"stair/easy-chat/apps/user/rpc/internal/config"
 	"stair/easy-chat/apps/user/rpc/internal/server"
@@ -32,6 +33,8 @@ func main() {
 			reflection.Register(grpcServer)
 		}
 	})
+	// 拦截器
+	s.AddUnaryInterceptors(rpcserver.LogInterceptor)
 	defer s.Stop()
 
 	fmt.Printf("Starting rpc server at %s...\n", c.ListenOn)
